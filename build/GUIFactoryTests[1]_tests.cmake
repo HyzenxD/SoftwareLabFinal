@@ -1,0 +1,7 @@
+add_test([=[GUIFactoryTest.WindowsFactoryCreatesWindowsProducts]=]  /home/tawhid/SoftwareLabFinal/build/GUIFactoryTests [==[--gtest_filter=GUIFactoryTest.WindowsFactoryCreatesWindowsProducts]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GUIFactoryTest.WindowsFactoryCreatesWindowsProducts]=]  PROPERTIES WORKING_DIRECTORY /home/tawhid/SoftwareLabFinal/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GUIFactoryTest.LinuxFactoryCreatesLinuxProducts]=]  /home/tawhid/SoftwareLabFinal/build/GUIFactoryTests [==[--gtest_filter=GUIFactoryTest.LinuxFactoryCreatesLinuxProducts]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GUIFactoryTest.LinuxFactoryCreatesLinuxProducts]=]  PROPERTIES WORKING_DIRECTORY /home/tawhid/SoftwareLabFinal/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GUIFactoryTest.FactoriesCreateDifferentProducts]=]  /home/tawhid/SoftwareLabFinal/build/GUIFactoryTests [==[--gtest_filter=GUIFactoryTest.FactoriesCreateDifferentProducts]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GUIFactoryTest.FactoriesCreateDifferentProducts]=]  PROPERTIES WORKING_DIRECTORY /home/tawhid/SoftwareLabFinal/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  GUIFactoryTests_TESTS GUIFactoryTest.WindowsFactoryCreatesWindowsProducts GUIFactoryTest.LinuxFactoryCreatesLinuxProducts GUIFactoryTest.FactoriesCreateDifferentProducts)

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/GUIFactoryTests.dir/tests/GUIFactoryTests.cpp.o -o GUIFactoryTests  lib/libgtest_main.a lib/libgtest.a 

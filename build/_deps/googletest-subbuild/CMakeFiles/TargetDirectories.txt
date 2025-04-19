@@ -1,0 +1,3 @@
+/home/tawhid/SoftwareLabFinal/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/tawhid/SoftwareLabFinal/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/tawhid/SoftwareLabFinal/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

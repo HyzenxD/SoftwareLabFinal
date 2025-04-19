@@ -1,0 +1,5 @@
+if(EXISTS "/home/tawhid/SoftwareLabFinal/build/GUIFactoryTests[1]_tests.cmake")
+  include("/home/tawhid/SoftwareLabFinal/build/GUIFactoryTests[1]_tests.cmake")
+else()
+  add_test(GUIFactoryTests_NOT_BUILT GUIFactoryTests_NOT_BUILT)
+endif()
